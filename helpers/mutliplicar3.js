@@ -1,12 +1,12 @@
 
 const fs = require('fs');
-const colors = require('colors');
+
 
 const crearArchivo = async( base = 5 )=>{
     
-    console.log('===================='.red);
+    console.log('====================');
     console.log('  Tabla del:', base)
-    console.log('===================='.trap);
+    console.log('====================');
 
     let salida = '';
 
